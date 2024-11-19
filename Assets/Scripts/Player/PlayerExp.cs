@@ -8,7 +8,7 @@ public class PlayerExp : MonoBehaviour
 
     private int currentExp = 0;
     private int currentLevel = 1;
-    private int requireExp = 1;
+    private int requireExp = 30;
 
     [SerializeField] private LevelUpPanelManager levelUpPanelManager; // Tham chiếu đến LevelUpPanelManager
     // Level + exp
@@ -19,7 +19,7 @@ public class PlayerExp : MonoBehaviour
         {
             currentLevel++;
             currentExp -= requireExp;
-            requireExp = (int)(requireExp * 1.1);
+            requireExp = (int)(requireExp * 1.2);
 
             levelUpPanelManager.ShowPanel();
         }

@@ -627,7 +627,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -4}
+  m_AnchoredPosition: {x: 0, y: -3.999939}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &78445422
@@ -5540,7 +5540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExpBar: {fileID: 1488924983}
-  levelUpPanelManager: {fileID: 0}
+  levelUpPanelManager: {fileID: 1007680370}
 --- !u!114 &1488924983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5678,7 +5678,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -5811,7 +5811,10 @@ MonoBehaviour:
   completionPanel: {fileID: 78445420}
   bossPrefab: {fileID: 2419094836232695945, guid: a2b82cd83aaff6f4cb9c11c13c8fb661, type: 3}
   bossSpawnPoints:
-  - {fileID: 0}
+  - {fileID: 1199979514}
+  - {fileID: 98580333}
+  - {fileID: 1902868265}
+  - {fileID: 450508374}
 --- !u!114 &1662690759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5923,11 +5926,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1738521986}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -22.3, y: 333.1}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -46.79}
   m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1680789240
 GameObject:
   m_ObjectHideFlags: 0
